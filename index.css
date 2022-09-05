@@ -30,6 +30,8 @@ header {
     border: 1px solid black;
     padding: 9px 9px;
     cursor: pointer;
+    color: black;
+    font-weight: bold;
   }
   
   /* Change background color of buttons on hover */

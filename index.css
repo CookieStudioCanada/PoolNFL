@@ -3,31 +3,21 @@ body {
     color: rgb(0, 0, 0);
 }
 
-header { 
-    background: cornsilk;
-    width: 200px;
-    text-align: center;
-    font-weight: bold;
-    font-size: xx-large;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 1px solid;
-}
-
 .notvisible {
   display: none; /* Pour ne pas afficher le texte du GC, mais pas encore capable de l'activer. */
 }
 
 /* Style the tab */
 .tab {
-    overflow: hidden;
-  }
+  overflow: hidden;
+}
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
-    background-color: inherit;
-    float: left;
+    background-color: #FFF8DC;
+    /* float: left; */
     border: 1px solid black;
+    border-radius: 2px;
     padding: 9px 9px;
     cursor: pointer;
     color: black;
@@ -67,7 +57,7 @@ header {
     padding: 8px;
   }
   
-  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  .customers tr:nth-child(even){background-color: #FFF8DC;}
   
   .customers tr:hover {background-color: #ddd;}
   
@@ -77,4 +67,26 @@ header {
     text-align: left;
     background-color: rgb(136, 207, 77);
     color: black;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+    background-color:  #FFF8DC;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: solid black 1px;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: x-large;
+  }
+
+  h5 {
+    font-size: larger;
   }

@@ -8,41 +8,49 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>Mega pool</header>
+    <header><img src="MegaPool.png" alt="MegaPoolimg"></header>
     
 <!-- Tab links -->
 <div class="tab">
     <button class="tablinks" onclick="tabs(event, 'Feed')">Feed</button>
-    <button class="tablinks" onclick="tabs(event, 'Inscription')">Inscription</button>
     <button class="tablinks" onclick="tabs(event, 'Choix')">Choix</button>
     <button class="tablinks" onclick="tabs(event, 'Classement')">Classement</button>
     <button class="tablinks" onclick="tabs(event, 'Rules')">Règlements</button>
-    <button class="tablinks" onclick="tabs(event, 'ContactUs')">Contact us</button>
   </div>
   
   <!-- Tab content -->
   <div id="Feed" class="tabcontent">  
     <h3>Feed</h3>
+    <div class="flex-container">
+      <div>
         <h5>À venir...</h5>
         <p>Bientôt des nouveautés...</p>
+      </div>
+      <div>
         <h5>Dommage...</h5>    
         <p>Le 2e en liste pourrait perdre sa bourse pour non paiement...</p>
+      </div>
+      <div>
         <h5>Warrant</h5>
         <p>Certains bandits n'ont toujours pas payé le pool... </p>
+      </div>
+      <div>
         <h5>No name</h5>
         <p>L'équipe de JeyBarr toujours sans nom...</p>
+      </div>
+      <div>
         <h5>VIVE LE ROI!</h5>
         <p>Patrick a modifié le nom de son équipe en faveur de "Pour la Reine"</p>
+      </div>
+      <div>
         <h5>Malaise...</h5>
         <p>Après une semaine d'activité, la famille L'Allier est dernière...</p>
+      </div>
+      <div>
         <h5>Bienvenue à tous</h5>
         <p>Bienvenue à la première édition du Pool NFL.</p>
+      </div>
     </div>
-  
-
-  <div id="Inscription" class="tabcontent">
-    <h3>Inscription</h3>
-    La période d'inscription est terminée.
   </div>
 
   <div id="Choix" class="tabcontent">
@@ -149,22 +157,20 @@
 
   <div id="Rules" class="tabcontent">
     <h3>Règlements</h3>
-      <p>Chaque semaine, chaque pooler choisis le gagnant de chaque match de la saison (uniquement). Le pooler devra avoir envoyé ses choix avant le premier match de la semaine. Au début de l'année, chaque pooler choisira le gagnant du Super bowl, champion AFC (playoff), champion NFC (playoff) et premier de chaque division.</p>
-      <p>Points :
-          5 points pour chaque bonne prédiction;
-          50 points Super bowl;
-          25 points NFC/AFC champions;
-          25 points division winner.</p>
-      <p>Champion : Plus de points à la fin de la saison</p>
-      <p>Montant : 50$. Doit être payé d'ici le début de la Week 3, sinon disqualifié.</p> 
-      <p>Prize pool : 1ere place (250$), 2e place (100$), 3e place (50$).</p>
-  </div>
+    <div class="flex-container">
+      <div>
+        <p>Chaque semaine, chaque pooler choisis le gagnant de chaque match de la saison (uniquement). Le pooler devra avoir envoyé ses choix avant le premier match de la semaine. Au début de l'année, chaque pooler choisira le gagnant du Super bowl, champion AFC (playoff), champion NFC (playoff) et premier de chaque division.</p>
+        <p>Points :
+            5 points pour chaque bonne prédiction;
+            50 points Super bowl;
+            25 points NFC/AFC champions;
+            25 points division winner.</p>
+        <p>Champion : Plus de points à la fin de la saison</p>
+        <p>Montant : 50$. Doit être payé d'ici le début de la Week 3, sinon disqualifié.</p> 
+        <p>Prize pool : 1ere place (250$), 2e place (100$), 3e place (50$).</p>
+      </div>
+ </div>
 
-  <div id="ContactUs" class="tabcontent">
-    <h3>Contact us</h3>
-    <p>Pour tous commentaires ou plaintes, veuillez vous adresser directement au 
-      <a href="lol.html">directeur technique.</a></p> 
-  </div>
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

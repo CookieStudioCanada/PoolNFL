@@ -1,3 +1,5 @@
+// Tabs
+
 function tabs(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
